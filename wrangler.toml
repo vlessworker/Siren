@@ -3,6 +3,7 @@ custom_domain = true
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
+compatibility_flags = ["disable_bulk_memory"]  # ← tambahkan baris ini
 
 [[kv_namespaces]]
 binding = "SIREN"
